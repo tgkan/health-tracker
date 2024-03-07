@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0b5e0f;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #054308;
+    color: #fff;
+    text-align: center;
+    padding: 8px;   
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+#moreInfo {
+    display: none;
+    max-height: 150px; /* Adjust the max-height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    width: 100%; /* Ensure the content occupies the full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.brief-description {
+    margin-bottom: 20px; /* Added margin between each paragraph */
+}
+button:hover {
+    background-color: #0056b3;
+}
+.main-content {
+    text-align: center; /* Aligns the content in the center horizontally */
+}
+.logo-img {
+    width: 25%;
+    display: flex; /* Allows centering vertically */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+}
+
+.logo-img {
+    display: block; /* Allows applying margins */
+    margin: auto; /* Centers the image horizontally */
+}
+
+.logo {
+    display: inline-block; /* Ensures the logo image behaves like an inline element */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.logo img {
+    max-width: 70px; /* Adjust the width of the logo as needed */
+    height: auto; /* Ensures the aspect ratio of the logo is maintained */
+    vertical-align: middle; /* Aligns the logo vertically within the header */
+}
